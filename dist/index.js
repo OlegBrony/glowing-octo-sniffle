@@ -10684,8 +10684,9 @@ $projectDetails.on(projectDetailsRemoved, (prev, removedId) => {
     id2 += 1;
     return {
       id: `${id2}`,
-      ...details,
       name: details.projectName,
+      description: details.description,
+      duration: details.duration,
       isTouched: {description: false, name: false, duration: false},
       error: {duration: "", name: "", description: ""}
     };
@@ -10905,7 +10906,8 @@ var ProjectDetailsDescription = ({projectDetails}) => {
   }, /* @__PURE__ */ react.createElement(TextArea, {
     onChange: handlePDDescriptionChange,
     isError: projectDetails.isTouched.description && !!projectDetails.error.description,
-    helperText: projectDetails.error.description
+    helperText: projectDetails.error.description,
+    value: projectDetails.description
   }));
 };
 

@@ -366,7 +366,7 @@
       ]
     },
     "dist/user-projects-form/model/project-details.js": {
-      "bytes": 3846,
+      "bytes": 3902,
       "imports": [
         {
           "path": "_snowpack/pkg/effector.js",
@@ -537,7 +537,7 @@
       ]
     },
     "dist/user-projects-form/atoms/project-details-description.js": {
-      "bytes": 770,
+      "bytes": 809,
       "imports": [
         {
           "path": "_snowpack/pkg/react.js",
@@ -1024,7 +1024,7 @@
           "bytesInOutput": 47681
         },
         "dist/user-projects-form/model/project-details.js": {
-          "bytesInOutput": 3462
+          "bytesInOutput": 3518
         },
         "dist/user-projects-form/model/validation.js": {
           "bytesInOutput": 2633
@@ -1048,7 +1048,7 @@
           "bytesInOutput": 705
         },
         "dist/user-projects-form/atoms/project-details-description.js": {
-          "bytesInOutput": 532
+          "bytesInOutput": 571
         },
         "dist/user-projects-form/atoms/remove-project-btn.js": {
           "bytesInOutput": 297
@@ -1093,7 +1093,7 @@
           "bytesInOutput": 236
         }
       },
-      "bytes": 365514
+      "bytes": 365609
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
