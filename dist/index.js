@@ -10570,7 +10570,6 @@ var $newPDKey = u(0);
 var idIncremented = c();
 var idAssigned = c();
 $newPDKey.on(idIncremented, (prev) => prev + 1).on(idAssigned, (_3, n3) => n3);
-$newPDKey.watch(console.log);
 var newProjectDetailsTriedToAdd = c();
 var newProjectDetailsAdded = c();
 v({

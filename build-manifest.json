@@ -366,7 +366,7 @@
       ]
     },
     "dist/user-projects-form/model/project-details.js": {
-      "bytes": 3876,
+      "bytes": 3846,
       "imports": [
         {
           "path": "_snowpack/pkg/effector.js",
@@ -1024,7 +1024,7 @@
           "bytesInOutput": 47681
         },
         "dist/user-projects-form/model/project-details.js": {
-          "bytesInOutput": 3492
+          "bytesInOutput": 3462
         },
         "dist/user-projects-form/model/validation.js": {
           "bytesInOutput": 2633
@@ -1093,7 +1093,7 @@
           "bytesInOutput": 236
         }
       },
-      "bytes": 365544
+      "bytes": 365514
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
