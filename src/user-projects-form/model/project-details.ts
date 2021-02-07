@@ -1,6 +1,7 @@
 import { createEvent, createStore, sample } from 'effector';
 import { TimeUnits } from '../../api/types';
 import type { ProjectDetails } from '../types';
+import { getProjectsDataFx } from './main';
 
 export const $projectDetails = createStore<ProjectDetails[]>([])
 
@@ -118,3 +119,14 @@ $projectDetails
       description: pd.description === '' ? 'Required' : '',
     }
   })))
+  .on(getProjectsDataFx.doneData, (prev, data) => {
+    if (!data) return undefined
+    let id = 0
+    return data.details.map((details) => ({
+      id: `${id}`,
+      ...details,
+      name: details.projectName,
+      isTouched: { description: false, name: false, duration: false },
+      error: { duration: '', name: '', description: '' },
+    }))
+  })
