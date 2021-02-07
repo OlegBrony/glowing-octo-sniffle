@@ -133,8 +133,9 @@ $projectDetails
       id += 1
       return {
         id: `${id}`,
-        ...details,
         name: details.projectName,
+        description: details.description,
+        duration: details.duration,
         isTouched: { description: false, name: false, duration: false },
         error: { duration: '', name: '', description: '' },
       }

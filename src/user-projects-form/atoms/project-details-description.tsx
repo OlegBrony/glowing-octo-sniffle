@@ -14,6 +14,7 @@ export const ProjectDetailsDescription = ({ projectDetails }: { projectDetails: 
         onChange={handlePDDescriptionChange}
         isError={projectDetails.isTouched.description && !!projectDetails.error.description}
         helperText={projectDetails.error.description}
+        value={projectDetails.description}
       />
     </ProjectDetailsItemTemplate>
   )
