@@ -1,11 +1,9 @@
-export { $isUserProjectsFormOpened, userProjectsFormApi, formMounted } from './main';
+export { $isUserProjectsFormOpened, userProjectsFormApi, formMounted, $viewMode, viewModeSwitchedToForm } from './main';
 export { $username, $usernameError, usernameChanged, usernameTouched } from './username';
 export {
-  $viewMode,
   triedSwitchToJsonPreview,
   $parsedDetails,
   triedToSave,
-  viewModeSwitchedToForm,
 } from './validation';
 export {
   $newProjectName,

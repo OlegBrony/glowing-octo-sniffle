@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
+/**
+ * main styles for child buttons
+ * */
 export const BaseButton = styled.button`
   outline: none;
   transition: box-shadow 225ms;
@@ -8,12 +11,18 @@ export const BaseButton = styled.button`
   }
 `
 
+/**
+ * main button
+ * */
 export const Button = styled(BaseButton)`
   width: 100px;
   border-radius: 8px;
   padding: 4px 8px;
 `
 
+/**
+ * button for icons (rounded)
+ * */
 export const IconButton = styled(BaseButton)`
   border-radius: 50%;
   width: 40px;
@@ -30,6 +39,9 @@ export const SmallIconButton = styled(IconButton)`
   }
 `
 
+/**
+ * button without borders
+ * */
 export const TextButton = styled.button`
   background: transparent;
   border: 1px dashed transparent;

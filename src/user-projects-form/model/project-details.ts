@@ -6,6 +6,9 @@ import { forward } from 'effector/compat';
 
 export const $projectDetails = createStore<ProjectDetails[]>([])
 
+/**
+ * identifier for detail items
+ * */
 const $newPDKey = createStore(0)
 const idIncremented = createEvent()
 const idAssigned = createEvent<number>()
