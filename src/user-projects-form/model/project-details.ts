@@ -2,12 +2,17 @@ import { createEvent, createStore, sample } from 'effector';
 import { TimeUnits } from '../../api/types';
 import type { ProjectDetails } from '../types';
 import { getProjectsDataFx } from './main';
+import { forward } from 'effector/compat';
 
 export const $projectDetails = createStore<ProjectDetails[]>([])
 
 const $newPDKey = createStore(0)
 const idIncremented = createEvent()
-$newPDKey.on(idIncremented, (prev) => prev + 1)
+const idAssigned = createEvent<number>()
+$newPDKey
+  .on(idIncremented, (prev) => prev + 1)
+  .on(idAssigned, (_, n) => n)
+$newPDKey.watch(console.log)
 
 export const newProjectDetailsTriedToAdd = createEvent()
 const newProjectDetailsAdded = createEvent<number>()
@@ -122,11 +127,21 @@ $projectDetails
   .on(getProjectsDataFx.doneData, (prev, data) => {
     if (!data) return undefined
     let id = 0
-    return data.details.map((details) => ({
-      id: `${id}`,
-      ...details,
-      name: details.projectName,
-      isTouched: { description: false, name: false, duration: false },
-      error: { duration: '', name: '', description: '' },
-    }))
+    return data.details.map((details) => {
+      id += 1
+      return {
+        id: `${id}`,
+        ...details,
+        name: details.projectName,
+        isTouched: { description: false, name: false, duration: false },
+        error: { duration: '', name: '', description: '' },
+      }
+    })
   })
+forward({
+  from: getProjectsDataFx.doneData.map((data) => {
+    if (data) return data.details.length + 1
+    return 0
+  }),
+  to: idAssigned,
+})
