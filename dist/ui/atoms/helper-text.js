@@ -1,4 +1,4 @@
-import styled from "../../../_snowpack/pkg/styled-components.js";
+import styled from "../../pkg/styled-components.js";
 export const HelperText = styled.span`
   font-size: 0.8rem;
   height: 100%;

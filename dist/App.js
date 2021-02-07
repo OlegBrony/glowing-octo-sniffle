@@ -1,4 +1,4 @@
-import React from "../_snowpack/pkg/react.js";
+import React from "./pkg/react.js";
 import {UserProjectsForm, userProjectsFormApi} from "./user-projects-form/index.js";
 import {Button} from "./ui/index.js";
 export function App() {

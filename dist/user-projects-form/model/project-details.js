@@ -1,7 +1,7 @@
-import {createEvent, createStore, sample} from "../../../_snowpack/pkg/effector.js";
+import {createEvent, createStore, sample} from "../../pkg/effector.js";
 import {TimeUnits} from "../../api/types.js";
 import {getProjectsDataFx} from "./main.js";
-import {forward} from "../../../_snowpack/pkg/effector/compat.js";
+import {forward} from "../../pkg/effector/compat.js";
 export const $projectDetails = createStore([]);
 const $newPDKey = createStore(0);
 const idIncremented = createEvent();

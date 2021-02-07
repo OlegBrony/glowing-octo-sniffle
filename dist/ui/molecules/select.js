@@ -1,5 +1,5 @@
-import React from "../../../_snowpack/pkg/react.js";
-import styled from "../../../_snowpack/pkg/styled-components.js";
+import React from "../../pkg/react.js";
+import styled from "../../pkg/styled-components.js";
 import {HelperText} from "../atoms/index.js";
 export const Select = ({options, onChange, value, error, isError}) => {
   return /* @__PURE__ */ React.createElement(SelectWrappers, null, /* @__PURE__ */ React.createElement(SelectStyled, {

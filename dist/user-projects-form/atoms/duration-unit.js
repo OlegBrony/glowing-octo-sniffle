@@ -1,4 +1,4 @@
-import React from "../../../_snowpack/pkg/react.js";
+import React from "../../pkg/react.js";
 import {TimeUnits} from "../../api/types.js";
 import {Select} from "../../ui/index.js";
 import {projectDetailsDurationUnitChanged} from "../model/index.js";

@@ -1,4 +1,4 @@
-import React from "../../../_snowpack/pkg/react.js";
+import React from "../../pkg/react.js";
 import {TextArea} from "../../ui/index.js";
 import {ProjectDetailsItemTemplate} from "../templates/index.js";
 import {projectDetailsDescriptionChanged} from "../model/index.js";

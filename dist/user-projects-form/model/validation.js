@@ -1,4 +1,4 @@
-import {combine, createEffect, createEvent, forward, restore, sample} from "../../../_snowpack/pkg/effector.js";
+import {combine, createEffect, createEvent, forward, restore, sample} from "../../pkg/effector.js";
 import {apiClient} from "../../api/index.js";
 import {$username, $usernameInnerError, usernameTouched} from "./username.js";
 import {$projectNames} from "./project-name.js";

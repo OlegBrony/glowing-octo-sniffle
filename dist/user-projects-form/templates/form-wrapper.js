@@ -1,5 +1,5 @@
-import React from "../../../_snowpack/pkg/react.js";
-import styled from "../../../_snowpack/pkg/styled-components.js";
+import React from "../../pkg/react.js";
+import styled from "../../pkg/styled-components.js";
 export const FormWrapper = ({children}) => {
   return /* @__PURE__ */ React.createElement(FormWrapperStyled, null, /* @__PURE__ */ React.createElement(FormContainer, null, children));
 };

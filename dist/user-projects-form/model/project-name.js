@@ -1,4 +1,4 @@
-import {combine, createEvent, createStore, forward, guard} from "../../../_snowpack/pkg/effector.js";
+import {combine, createEvent, createStore, forward, guard} from "../../pkg/effector.js";
 import {createFormField} from "../../lib/create-form-field.js";
 import {getProjectsDataFx} from "./main.js";
 export const $projectNames = createStore([]);

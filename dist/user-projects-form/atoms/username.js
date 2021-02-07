@@ -1,5 +1,5 @@
-import React from "../../../_snowpack/pkg/react.js";
-import {useStore} from "../../../_snowpack/pkg/effector-react.js";
+import React from "../../pkg/react.js";
+import {useStore} from "../../pkg/effector-react.js";
 import {TextField} from "../../ui/index.js";
 import {FormMainTitleAndContent} from "../templates/index.js";
 import {$username, usernameChanged, $usernameError, usernameTouched} from "../model/index.js";

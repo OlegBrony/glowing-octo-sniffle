@@ -1,5 +1,5 @@
-import React from "../../../_snowpack/pkg/react.js";
-import styled from "../../../_snowpack/pkg/styled-components.js";
+import React from "../../pkg/react.js";
+import styled from "../../pkg/styled-components.js";
 import {usePreviousErrorMessage} from "../../lib/use-previous-error-message.js";
 import {HelperText} from "../atoms/index.js";
 export const TextField = ({

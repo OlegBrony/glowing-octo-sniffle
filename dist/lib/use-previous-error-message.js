@@ -1,4 +1,4 @@
-import React from "../../_snowpack/pkg/react.js";
+import React from "../pkg/react.js";
 export function usePreviousErrorMessage({errorText, hasError}) {
   const [errorMessage, setErrorMessage] = React.useState(errorText);
   React.useEffect(() => {

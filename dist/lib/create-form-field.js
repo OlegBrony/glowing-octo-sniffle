@@ -1,4 +1,4 @@
-import {combine, createEvent, createStore} from "../../_snowpack/pkg/effector.js";
+import {combine, createEvent, createStore} from "../pkg/effector.js";
 export function createFormField({
   defaultValue,
   reducer,

@@ -1,5 +1,5 @@
-import React from "../../../_snowpack/pkg/react.js";
-import styled from "../../../_snowpack/pkg/styled-components.js";
+import React from "../../pkg/react.js";
+import styled from "../../pkg/styled-components.js";
 import {ProjectDetailsItemTemplate} from "../templates/index.js";
 import {DurationUnitValue, DurationUnit} from "../atoms/index.js";
 export const ProjectDetailsDuration = ({projectDetails}) => {

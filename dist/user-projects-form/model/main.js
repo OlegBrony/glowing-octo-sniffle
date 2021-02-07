@@ -1,4 +1,4 @@
-import {createEffect, forward, createApi, createEvent, createStore} from "../../../_snowpack/pkg/effector.js";
+import {createEffect, forward, createApi, createEvent, createStore} from "../../pkg/effector.js";
 import {apiClient} from "../../api/index.js";
 export const $isUserProjectsFormOpened = createStore(false);
 export const userProjectsFormApi = createApi($isUserProjectsFormOpened, {

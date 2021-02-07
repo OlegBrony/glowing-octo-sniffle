@@ -1,5 +1,5 @@
-import React from "../../../_snowpack/pkg/react.js";
-import styled from "../../../_snowpack/pkg/styled-components.js";
+import React from "../../pkg/react.js";
+import styled from "../../pkg/styled-components.js";
 import {IconButton} from "../../ui/index.js";
 import {userProjectsFormApi} from "../model/index.js";
 export const FormHeader = () => {

@@ -1,5 +1,5 @@
-import React from "../../../_snowpack/pkg/react.js";
-import {useStore} from "../../../_snowpack/pkg/effector-react.js";
+import React from "../../pkg/react.js";
+import {useStore} from "../../pkg/effector-react.js";
 import {Select} from "../../ui/index.js";
 import {ProjectDetailsItemTemplate} from "../templates/index.js";
 import {$projectNames, projectDetailsNameChanged} from "../model/index.js";

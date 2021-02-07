@@ -1,6 +1,6 @@
-import React from "../../../_snowpack/pkg/react.js";
-import {useStore} from "../../../_snowpack/pkg/effector-react.js";
-import styled from "../../../_snowpack/pkg/styled-components.js";
+import React from "../../pkg/react.js";
+import {useStore} from "../../pkg/effector-react.js";
+import styled from "../../pkg/styled-components.js";
 import {SmallIconButton, TextField} from "../../ui/index.js";
 import {
   $newProjectName,

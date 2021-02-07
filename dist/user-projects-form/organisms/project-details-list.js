@@ -1,6 +1,6 @@
-import React from "../../../_snowpack/pkg/react.js";
-import styled from "../../../_snowpack/pkg/styled-components.js";
-import {useStore} from "../../../_snowpack/pkg/effector-react.js";
+import React from "../../pkg/react.js";
+import styled from "../../pkg/styled-components.js";
+import {useStore} from "../../pkg/effector-react.js";
 import {SmallIconButton} from "../../ui/index.js";
 import {FormMainTitleAndContent} from "../templates/index.js";
 import {ProjectDetailsName, ProjectDetailsDescription, RemoveProjectBtn} from "../atoms/index.js";
