@@ -1,6 +1,1108 @@
 {
   "inputs": {
+    "dist/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "dist/pkg/common/_commonjsHelpers-668e6127.js": {
+      "bytes": 451,
+      "imports": []
+    },
+    "dist/pkg/common/index-4f86a9c5.js": {
+      "bytes": 8631,
+      "imports": [
+        {
+          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/pkg/react.js": {
+      "bytes": 164,
+      "imports": [
+        {
+          "path": "dist/pkg/common/index-4f86a9c5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/common/index-4f86a9c5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/pkg/react-dom.js": {
+      "bytes": 127525,
+      "imports": [
+        {
+          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/common/index-4f86a9c5.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/pkg/common/effector-4506bfe7.js": {
+      "bytes": 15557,
+      "imports": []
+    },
+    "dist/pkg/effector-react.js": {
+      "bytes": 501,
+      "imports": [
+        {
+          "path": "dist/pkg/common/index-4f86a9c5.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/common/effector-4506bfe7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/pkg/styled-components.js": {
+      "bytes": 49194,
+      "imports": [
+        {
+          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/common/index-4f86a9c5.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/templates/form-wrapper.js": {
+      "bytes": 509,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/templates/form-main-title-and-content.js": {
+      "bytes": 559,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/templates/project-details-item.js": {
+      "bytes": 539,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/templates/index.js": {
+      "bytes": 191,
+      "imports": [
+        {
+          "path": "dist/user-projects-form/templates/form-wrapper.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/templates/form-main-title-and-content.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/templates/project-details-item.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/ui/atoms/button.js": {
+      "bytes": 845,
+      "imports": [
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/ui/atoms/helper-text.js": {
+      "bytes": 329,
+      "imports": [
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/ui/atoms/index.js": {
+      "bytes": 134,
+      "imports": [
+        {
+          "path": "dist/ui/atoms/button.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/atoms/helper-text.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/ui/molecules/chip.js": {
+      "bytes": 664,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/atoms/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/lib/use-previous-error-message.js": {
+      "bytes": 303,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/ui/molecules/text-field.js": {
+      "bytes": 887,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/lib/use-previous-error-message.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/atoms/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/ui/molecules/select.js": {
+      "bytes": 731,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/atoms/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/ui/molecules/text-area.js": {
+      "bytes": 862,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/lib/use-previous-error-message.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/atoms/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/ui/molecules/index.js": {
+      "bytes": 152,
+      "imports": [
+        {
+          "path": "dist/ui/molecules/chip.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/molecules/text-field.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/molecules/select.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/molecules/text-area.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/ui/index.js": {
+      "bytes": 72,
+      "imports": [
+        {
+          "path": "dist/ui/atoms/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/molecules/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/pkg/effector.js": {
+      "bytes": 186,
+      "imports": [
+        {
+          "path": "dist/pkg/common/effector-4506bfe7.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/api/index.js": {
+      "bytes": 282,
+      "imports": []
+    },
+    "dist/user-projects-form/model/main.js": {
+      "bytes": 923,
+      "imports": [
+        {
+          "path": "dist/pkg/effector.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/api/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/lib/create-form-field.js": {
+      "bytes": 1945,
+      "imports": [
+        {
+          "path": "dist/pkg/effector.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/model/username.js": {
+      "bytes": 630,
+      "imports": [
+        {
+          "path": "dist/lib/create-form-field.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/main.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/model/project-name.js": {
+      "bytes": 2002,
+      "imports": [
+        {
+          "path": "dist/pkg/effector.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/lib/create-form-field.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/main.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/api/types.js": {
+      "bytes": 145,
+      "imports": []
+    },
+    "dist/pkg/effector/compat.js": {
+      "bytes": 30463,
+      "imports": [
+        {
+          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/model/project-details.js": {
+      "bytes": 3850,
+      "imports": [
+        {
+          "path": "dist/pkg/effector.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/api/types.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/main.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/effector/compat.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/model/validation.js": {
+      "bytes": 3252,
+      "imports": [
+        {
+          "path": "dist/pkg/effector.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/api/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/username.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/project-name.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/project-details.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/main.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/model/index.js": {
+      "bytes": 758,
+      "imports": [
+        {
+          "path": "dist/user-projects-form/model/main.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/username.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/validation.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/project-name.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/project-details.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/molecules/form-footer.js": {
+      "bytes": 1531,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/effector-react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/molecules/form-header.js": {
+      "bytes": 893,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/atoms/username.js": {
+      "bytes": 690,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/effector-react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/templates/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/atoms/project-details-name.js": {
+      "bytes": 996,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/effector-react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/templates/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/atoms/project-details-description.js": {
+      "bytes": 757,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/templates/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/atoms/remove-project-btn.js": {
+      "bytes": 490,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/atoms/new-project-name.js": {
+      "bytes": 1118,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/effector-react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/atoms/duration-unit-value.js": {
+      "bytes": 882,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/atoms/duration-unit.js": {
+      "bytes": 632,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/api/types.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/atoms/index.js": {
+      "bytes": 399,
+      "imports": [
+        {
+          "path": "dist/user-projects-form/atoms/username.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/atoms/project-details-name.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/atoms/project-details-description.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/atoms/remove-project-btn.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/atoms/new-project-name.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/atoms/duration-unit-value.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/atoms/duration-unit.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/molecules/projects-names.js": {
+      "bytes": 1053,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/effector-react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/templates/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/atoms/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/molecules/project-details-duration.js": {
+      "bytes": 774,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/templates/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/atoms/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/molecules/index.js": {
+      "bytes": 211,
+      "imports": [
+        {
+          "path": "dist/user-projects-form/molecules/form-footer.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/molecules/form-header.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/molecules/projects-names.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/molecules/project-details-duration.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/organisms/project-details-list.js": {
+      "bytes": 1851,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/effector-react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/templates/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/atoms/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/molecules/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/organisms/form-main-content.js": {
+      "bytes": 1193,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/effector-react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/styled-components.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/atoms/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/molecules/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/organisms/project-details-list.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/organisms/index.js": {
+      "bytes": 119,
+      "imports": [
+        {
+          "path": "dist/user-projects-form/organisms/form-main-content.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/organisms/project-details-list.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/user-projects-form.js": {
+      "bytes": 781,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/effector-react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/templates/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/molecules/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/organisms/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/user-projects-form/index.js": {
+      "bytes": 139,
+      "imports": [
+        {
+          "path": "dist/user-projects-form/user-projects-form.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/model/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/App.js": {
+      "bytes": 486,
+      "imports": [
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/user-projects-form/index.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/ui/index.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "dist/index.css": {
+      "bytes": 366,
+      "imports": []
+    },
+    "dist/index.js": {
+      "bytes": 482,
+      "imports": [
+        {
+          "path": "dist/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/react.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/pkg/react-dom.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/App.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "dist/index.css",
+          "kind": "import-statement"
+        }
+      ]
+    }
   },
   "outputs": {
+    "../~~bundle~~/dist/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "dist/env.js": {
+          "bytesInOutput": 186
+        },
+        "dist/pkg/common/_commonjsHelpers-668e6127.js": {
+          "bytesInOutput": 418
+        },
+        "dist/pkg/common/index-4f86a9c5.js": {
+          "bytesInOutput": 11097
+        },
+        "dist/pkg/react.js": {
+          "bytesInOutput": 0
+        },
+        "dist/pkg/react-dom.js": {
+          "bytesInOutput": 198052
+        },
+        "dist/pkg/common/effector-4506bfe7.js": {
+          "bytesInOutput": 23759
+        },
+        "dist/pkg/effector-react.js": {
+          "bytesInOutput": 393
+        },
+        "dist/pkg/styled-components.js": {
+          "bytesInOutput": 55144
+        },
+        "dist/user-projects-form/templates/form-wrapper.js": {
+          "bytesInOutput": 441
+        },
+        "dist/user-projects-form/templates/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/user-projects-form/templates/form-main-title-and-content.js": {
+          "bytesInOutput": 500
+        },
+        "dist/user-projects-form/templates/project-details-item.js": {
+          "bytesInOutput": 480
+        },
+        "dist/ui/atoms/button.js": {
+          "bytesInOutput": 842
+        },
+        "dist/ui/atoms/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/ui/atoms/helper-text.js": {
+          "bytesInOutput": 286
+        },
+        "dist/ui/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/ui/molecules/chip.js": {
+          "bytesInOutput": 545
+        },
+        "dist/ui/molecules/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/lib/use-previous-error-message.js": {
+          "bytesInOutput": 259
+        },
+        "dist/ui/molecules/text-field.js": {
+          "bytesInOutput": 701
+        },
+        "dist/ui/molecules/select.js": {
+          "bytesInOutput": 617
+        },
+        "dist/ui/molecules/text-area.js": {
+          "bytesInOutput": 676
+        },
+        "dist/pkg/effector.js": {
+          "bytesInOutput": 0
+        },
+        "dist/api/index.js": {
+          "bytesInOutput": 273
+        },
+        "dist/user-projects-form/model/main.js": {
+          "bytesInOutput": 624
+        },
+        "dist/user-projects-form/model/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/lib/create-form-field.js": {
+          "bytesInOutput": 1822
+        },
+        "dist/user-projects-form/model/username.js": {
+          "bytesInOutput": 477
+        },
+        "dist/user-projects-form/model/project-name.js": {
+          "bytesInOutput": 1670
+        },
+        "dist/api/types.js": {
+          "bytesInOutput": 138
+        },
+        "dist/pkg/effector/compat.js": {
+          "bytesInOutput": 47681
+        },
+        "dist/user-projects-form/model/project-details.js": {
+          "bytesInOutput": 3492
+        },
+        "dist/user-projects-form/model/validation.js": {
+          "bytesInOutput": 2633
+        },
+        "dist/user-projects-form/molecules/form-footer.js": {
+          "bytesInOutput": 1208
+        },
+        "dist/user-projects-form/molecules/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/user-projects-form/molecules/form-header.js": {
+          "bytesInOutput": 722
+        },
+        "dist/user-projects-form/atoms/username.js": {
+          "bytesInOutput": 372
+        },
+        "dist/user-projects-form/atoms/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/user-projects-form/atoms/project-details-name.js": {
+          "bytesInOutput": 705
+        },
+        "dist/user-projects-form/atoms/project-details-description.js": {
+          "bytesInOutput": 532
+        },
+        "dist/user-projects-form/atoms/remove-project-btn.js": {
+          "bytesInOutput": 297
+        },
+        "dist/user-projects-form/atoms/new-project-name.js": {
+          "bytesInOutput": 792
+        },
+        "dist/user-projects-form/atoms/duration-unit-value.js": {
+          "bytesInOutput": 684
+        },
+        "dist/user-projects-form/atoms/duration-unit.js": {
+          "bytesInOutput": 428
+        },
+        "dist/user-projects-form/molecules/projects-names.js": {
+          "bytesInOutput": 703
+        },
+        "dist/user-projects-form/molecules/project-details-duration.js": {
+          "bytesInOutput": 556
+        },
+        "dist/user-projects-form/organisms/project-details-list.js": {
+          "bytesInOutput": 1386
+        },
+        "dist/user-projects-form/organisms/form-main-content.js": {
+          "bytesInOutput": 819
+        },
+        "dist/user-projects-form/organisms/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/user-projects-form/user-projects-form.js": {
+          "bytesInOutput": 440
+        },
+        "dist/user-projects-form/index.js": {
+          "bytesInOutput": 0
+        },
+        "dist/App.js": {
+          "bytesInOutput": 320
+        },
+        "dist/index.css": {
+          "bytesInOutput": 0
+        },
+        "dist/index.js": {
+          "bytesInOutput": 236
+        }
+      },
+      "bytes": 365504
+    },
+    "../~~bundle~~/dist/index.css": {
+      "imports": [],
+      "inputs": {
+        "dist/index.css": {
+          "bytesInOutput": 353
+        }
+      },
+      "bytes": 374
+    }
   }
 }
