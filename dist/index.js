@@ -6,7 +6,7 @@ var __export = (target, all) => {
     __defProp(target, name, {get: all[name], enumerable: true});
 };
 
-// dist/env.js
+// _snowpack/env.js
 var env_exports = {};
 __export(env_exports, {
   MODE: () => MODE,
@@ -17,7 +17,7 @@ var MODE = "production";
 var NODE_ENV = "production";
 var SSR = false;
 
-// dist/pkg/common/_commonjsHelpers-668e6127.js
+// _snowpack/pkg/common/_commonjsHelpers-668e6127.js
 function createCommonjsModule(fn, basedir, module) {
   return module = {
     path: basedir,
@@ -31,7 +31,7 @@ function commonjsRequire() {
   throw new Error("Dynamic requires are not currently supported by @rollup/plugin-commonjs");
 }
 
-// dist/pkg/common/index-4f86a9c5.js
+// _snowpack/pkg/common/index-4f86a9c5.js
 /*
 object-assign
 (c) Sindre Sorhus
@@ -389,7 +389,7 @@ var react = createCommonjsModule(function(module) {
   }
 });
 
-// dist/pkg/react-dom.js
+// _snowpack/pkg/react-dom.js
 var scheduler_production_min = createCommonjsModule(function(module, exports) {
   var f3, g4, h3, k2;
   if (typeof performance === "object" && typeof performance.now === "function") {
@@ -7013,7 +7013,7 @@ var reactDom = createCommonjsModule(function(module) {
 });
 var react_dom_default = reactDom;
 
-// dist/pkg/common/effector-4506bfe7.js
+// _snowpack/pkg/common/effector-4506bfe7.js
 function e(e4, t3, r2, a2) {
   (J(e4) || K(e4)) && ("family" in e4 || "graphite" in e4) || B2(`${t3}: expect ${r2} to be a unit (store, event or effect)${a2}`);
 }
@@ -7588,7 +7588,7 @@ var qt = a({node: [ie2({fn({fn: e4, value: t3}) {
 }})], meta: {op: "fx", fx: "sidechain"}});
 var Nt = ["source", "clock", "target"];
 
-// dist/pkg/effector-react.js
+// _snowpack/pkg/effector-react.js
 function e2(e4) {
   U2.store(e4) || g2("expect useStore argument to be a store");
   let t3 = react.useRef(e4), n3 = react.useState(e4.getState())[1];
@@ -7599,7 +7599,7 @@ var g2 = (e4) => {
   throw Error(e4);
 };
 
-// dist/pkg/styled-components.js
+// _snowpack/pkg/styled-components.js
 function defaultSetTimout() {
   throw new Error("setTimeout has not been defined");
 }
@@ -9478,7 +9478,7 @@ var TimeUnits;
   TimeUnits2["Year"] = "year";
 })(TimeUnits || (TimeUnits = {}));
 
-// dist/pkg/effector/compat.js
+// _snowpack/pkg/effector/compat.js
 var compat = createCommonjsModule(function(module, exports) {
   function e4(e5, r3) {
     (r3 == null || r3 > e5.length) && (r3 = e5.length);

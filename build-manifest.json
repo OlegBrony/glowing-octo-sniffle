@@ -1,121 +1,121 @@
 {
   "inputs": {
-    "dist/env.js": {
+    "_snowpack/env.js": {
       "bytes": 97,
       "imports": []
     },
-    "dist/pkg/common/_commonjsHelpers-668e6127.js": {
+    "_snowpack/pkg/common/_commonjsHelpers-668e6127.js": {
       "bytes": 451,
       "imports": []
     },
-    "dist/pkg/common/index-4f86a9c5.js": {
+    "_snowpack/pkg/common/index-4f86a9c5.js": {
       "bytes": 8631,
       "imports": [
         {
-          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "path": "_snowpack/pkg/common/_commonjsHelpers-668e6127.js",
           "kind": "import-statement"
         }
       ]
     },
-    "dist/pkg/react.js": {
+    "_snowpack/pkg/react.js": {
       "bytes": 164,
       "imports": [
         {
-          "path": "dist/pkg/common/index-4f86a9c5.js",
+          "path": "_snowpack/pkg/common/index-4f86a9c5.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/common/index-4f86a9c5.js",
+          "path": "_snowpack/pkg/common/index-4f86a9c5.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "path": "_snowpack/pkg/common/_commonjsHelpers-668e6127.js",
           "kind": "import-statement"
         }
       ]
     },
-    "dist/pkg/react-dom.js": {
+    "_snowpack/pkg/react-dom.js": {
       "bytes": 127525,
       "imports": [
         {
-          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "path": "_snowpack/pkg/common/_commonjsHelpers-668e6127.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/common/index-4f86a9c5.js",
+          "path": "_snowpack/pkg/common/index-4f86a9c5.js",
           "kind": "import-statement"
         }
       ]
     },
-    "dist/pkg/common/effector-4506bfe7.js": {
+    "_snowpack/pkg/common/effector-4506bfe7.js": {
       "bytes": 15557,
       "imports": []
     },
-    "dist/pkg/effector-react.js": {
+    "_snowpack/pkg/effector-react.js": {
       "bytes": 501,
       "imports": [
         {
-          "path": "dist/pkg/common/index-4f86a9c5.js",
+          "path": "_snowpack/pkg/common/index-4f86a9c5.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/common/effector-4506bfe7.js",
+          "path": "_snowpack/pkg/common/effector-4506bfe7.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "path": "_snowpack/pkg/common/_commonjsHelpers-668e6127.js",
           "kind": "import-statement"
         }
       ]
     },
-    "dist/pkg/styled-components.js": {
+    "_snowpack/pkg/styled-components.js": {
       "bytes": 49194,
       "imports": [
         {
-          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "path": "_snowpack/pkg/common/_commonjsHelpers-668e6127.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/common/index-4f86a9c5.js",
+          "path": "_snowpack/pkg/common/index-4f86a9c5.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/user-projects-form/templates/form-wrapper.js": {
-      "bytes": 509,
+      "bytes": 535,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/user-projects-form/templates/form-main-title-and-content.js": {
-      "bytes": 559,
+      "bytes": 585,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/user-projects-form/templates/project-details-item.js": {
-      "bytes": 539,
+      "bytes": 565,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         }
       ]
@@ -138,19 +138,19 @@
       ]
     },
     "dist/ui/atoms/button.js": {
-      "bytes": 845,
+      "bytes": 858,
       "imports": [
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/ui/atoms/helper-text.js": {
-      "bytes": 329,
+      "bytes": 342,
       "imports": [
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         }
       ]
@@ -169,14 +169,14 @@
       ]
     },
     "dist/ui/molecules/chip.js": {
-      "bytes": 664,
+      "bytes": 690,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -186,23 +186,23 @@
       ]
     },
     "dist/lib/use-previous-error-message.js": {
-      "bytes": 303,
+      "bytes": 316,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/ui/molecules/text-field.js": {
-      "bytes": 887,
+      "bytes": 913,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -216,14 +216,14 @@
       ]
     },
     "dist/ui/molecules/select.js": {
-      "bytes": 731,
+      "bytes": 757,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -233,14 +233,14 @@
       ]
     },
     "dist/ui/molecules/text-area.js": {
-      "bytes": 862,
+      "bytes": 888,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -287,11 +287,11 @@
         }
       ]
     },
-    "dist/pkg/effector.js": {
+    "_snowpack/pkg/effector.js": {
       "bytes": 186,
       "imports": [
         {
-          "path": "dist/pkg/common/effector-4506bfe7.js",
+          "path": "_snowpack/pkg/common/effector-4506bfe7.js",
           "kind": "import-statement"
         }
       ]
@@ -301,10 +301,10 @@
       "imports": []
     },
     "dist/user-projects-form/model/main.js": {
-      "bytes": 923,
+      "bytes": 936,
       "imports": [
         {
-          "path": "dist/pkg/effector.js",
+          "path": "_snowpack/pkg/effector.js",
           "kind": "import-statement"
         },
         {
@@ -314,10 +314,10 @@
       ]
     },
     "dist/lib/create-form-field.js": {
-      "bytes": 1945,
+      "bytes": 1958,
       "imports": [
         {
-          "path": "dist/pkg/effector.js",
+          "path": "_snowpack/pkg/effector.js",
           "kind": "import-statement"
         }
       ]
@@ -336,10 +336,10 @@
       ]
     },
     "dist/user-projects-form/model/project-name.js": {
-      "bytes": 2002,
+      "bytes": 2015,
       "imports": [
         {
-          "path": "dist/pkg/effector.js",
+          "path": "_snowpack/pkg/effector.js",
           "kind": "import-statement"
         },
         {
@@ -356,20 +356,20 @@
       "bytes": 145,
       "imports": []
     },
-    "dist/pkg/effector/compat.js": {
+    "_snowpack/pkg/effector/compat.js": {
       "bytes": 30463,
       "imports": [
         {
-          "path": "dist/pkg/common/_commonjsHelpers-668e6127.js",
+          "path": "_snowpack/pkg/common/_commonjsHelpers-668e6127.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/user-projects-form/model/project-details.js": {
-      "bytes": 3850,
+      "bytes": 3876,
       "imports": [
         {
-          "path": "dist/pkg/effector.js",
+          "path": "_snowpack/pkg/effector.js",
           "kind": "import-statement"
         },
         {
@@ -381,16 +381,16 @@
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/effector/compat.js",
+          "path": "_snowpack/pkg/effector/compat.js",
           "kind": "import-statement"
         }
       ]
     },
     "dist/user-projects-form/model/validation.js": {
-      "bytes": 3252,
+      "bytes": 3265,
       "imports": [
         {
-          "path": "dist/pkg/effector.js",
+          "path": "_snowpack/pkg/effector.js",
           "kind": "import-statement"
         },
         {
@@ -441,18 +441,18 @@
       ]
     },
     "dist/user-projects-form/molecules/form-footer.js": {
-      "bytes": 1531,
+      "bytes": 1570,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/effector-react.js",
+          "path": "_snowpack/pkg/effector-react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -466,14 +466,14 @@
       ]
     },
     "dist/user-projects-form/molecules/form-header.js": {
-      "bytes": 893,
+      "bytes": 919,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -487,14 +487,14 @@
       ]
     },
     "dist/user-projects-form/atoms/username.js": {
-      "bytes": 690,
+      "bytes": 716,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/effector-react.js",
+          "path": "_snowpack/pkg/effector-react.js",
           "kind": "import-statement"
         },
         {
@@ -512,14 +512,14 @@
       ]
     },
     "dist/user-projects-form/atoms/project-details-name.js": {
-      "bytes": 996,
+      "bytes": 1022,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/effector-react.js",
+          "path": "_snowpack/pkg/effector-react.js",
           "kind": "import-statement"
         },
         {
@@ -537,10 +537,10 @@
       ]
     },
     "dist/user-projects-form/atoms/project-details-description.js": {
-      "bytes": 757,
+      "bytes": 770,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
@@ -558,14 +558,14 @@
       ]
     },
     "dist/user-projects-form/atoms/remove-project-btn.js": {
-      "bytes": 490,
+      "bytes": 516,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -579,18 +579,18 @@
       ]
     },
     "dist/user-projects-form/atoms/new-project-name.js": {
-      "bytes": 1118,
+      "bytes": 1157,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/effector-react.js",
+          "path": "_snowpack/pkg/effector-react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -604,14 +604,14 @@
       ]
     },
     "dist/user-projects-form/atoms/duration-unit-value.js": {
-      "bytes": 882,
+      "bytes": 908,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -625,10 +625,10 @@
       ]
     },
     "dist/user-projects-form/atoms/duration-unit.js": {
-      "bytes": 632,
+      "bytes": 645,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
@@ -679,18 +679,18 @@
       ]
     },
     "dist/user-projects-form/molecules/projects-names.js": {
-      "bytes": 1053,
+      "bytes": 1092,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/effector-react.js",
+          "path": "_snowpack/pkg/effector-react.js",
           "kind": "import-statement"
         },
         {
@@ -712,14 +712,14 @@
       ]
     },
     "dist/user-projects-form/molecules/project-details-duration.js": {
-      "bytes": 774,
+      "bytes": 800,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -754,18 +754,18 @@
       ]
     },
     "dist/user-projects-form/organisms/project-details-list.js": {
-      "bytes": 1851,
+      "bytes": 1890,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/effector-react.js",
+          "path": "_snowpack/pkg/effector-react.js",
           "kind": "import-statement"
         },
         {
@@ -791,18 +791,18 @@
       ]
     },
     "dist/user-projects-form/organisms/form-main-content.js": {
-      "bytes": 1193,
+      "bytes": 1232,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/effector-react.js",
+          "path": "_snowpack/pkg/effector-react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/styled-components.js",
+          "path": "_snowpack/pkg/styled-components.js",
           "kind": "import-statement"
         },
         {
@@ -837,14 +837,14 @@
       ]
     },
     "dist/user-projects-form/user-projects-form.js": {
-      "bytes": 781,
+      "bytes": 807,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/effector-react.js",
+          "path": "_snowpack/pkg/effector-react.js",
           "kind": "import-statement"
         },
         {
@@ -879,10 +879,10 @@
       ]
     },
     "dist/App.js": {
-      "bytes": 486,
+      "bytes": 497,
       "imports": [
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
@@ -900,18 +900,18 @@
       "imports": []
     },
     "dist/index.js": {
-      "bytes": 482,
+      "bytes": 515,
       "imports": [
         {
-          "path": "dist/env.js",
+          "path": "_snowpack/env.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/react.js",
+          "path": "_snowpack/pkg/react.js",
           "kind": "import-statement"
         },
         {
-          "path": "dist/pkg/react-dom.js",
+          "path": "_snowpack/pkg/react-dom.js",
           "kind": "import-statement"
         },
         {
@@ -930,28 +930,28 @@
       "imports": [],
       "exports": [],
       "inputs": {
-        "dist/env.js": {
+        "_snowpack/env.js": {
           "bytesInOutput": 186
         },
-        "dist/pkg/common/_commonjsHelpers-668e6127.js": {
+        "_snowpack/pkg/common/_commonjsHelpers-668e6127.js": {
           "bytesInOutput": 418
         },
-        "dist/pkg/common/index-4f86a9c5.js": {
+        "_snowpack/pkg/common/index-4f86a9c5.js": {
           "bytesInOutput": 11097
         },
-        "dist/pkg/react.js": {
+        "_snowpack/pkg/react.js": {
           "bytesInOutput": 0
         },
-        "dist/pkg/react-dom.js": {
+        "_snowpack/pkg/react-dom.js": {
           "bytesInOutput": 198052
         },
-        "dist/pkg/common/effector-4506bfe7.js": {
+        "_snowpack/pkg/common/effector-4506bfe7.js": {
           "bytesInOutput": 23759
         },
-        "dist/pkg/effector-react.js": {
+        "_snowpack/pkg/effector-react.js": {
           "bytesInOutput": 393
         },
-        "dist/pkg/styled-components.js": {
+        "_snowpack/pkg/styled-components.js": {
           "bytesInOutput": 55144
         },
         "dist/user-projects-form/templates/form-wrapper.js": {
@@ -996,7 +996,7 @@
         "dist/ui/molecules/text-area.js": {
           "bytesInOutput": 676
         },
-        "dist/pkg/effector.js": {
+        "_snowpack/pkg/effector.js": {
           "bytesInOutput": 0
         },
         "dist/api/index.js": {
@@ -1020,7 +1020,7 @@
         "dist/api/types.js": {
           "bytesInOutput": 138
         },
-        "dist/pkg/effector/compat.js": {
+        "_snowpack/pkg/effector/compat.js": {
           "bytesInOutput": 47681
         },
         "dist/user-projects-form/model/project-details.js": {
@@ -1093,7 +1093,7 @@
           "bytesInOutput": 236
         }
       },
-      "bytes": 365504
+      "bytes": 365544
     },
     "../~~bundle~~/dist/index.css": {
       "imports": [],
