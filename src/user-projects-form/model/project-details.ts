@@ -15,7 +15,6 @@ const idAssigned = createEvent<number>()
 $newPDKey
   .on(idIncremented, (prev) => prev + 1)
   .on(idAssigned, (_, n) => n)
-$newPDKey.watch(console.log)
 
 export const newProjectDetailsTriedToAdd = createEvent()
 const newProjectDetailsAdded = createEvent<number>()

@@ -14,7 +14,7 @@ module.exports = {
   ],
   optimize: {
     /* Example: Bundle your final build: */
-    // "bundle": true,
+    "bundle": true,
   },
   packageOptions: {
     /* ... */
@@ -23,6 +23,6 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    baseUrl: '/glowing-octo-sniffle'
+    baseUrl: '/glowing-octo-sniffle',
   },
 };
