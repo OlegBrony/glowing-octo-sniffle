@@ -1,7 +1,7 @@
 import { createEffect, forward, createApi, createEvent, createStore } from 'effector';
 import { apiClient } from '../../api';
 
-export const $isUserProjectsFormOpened = createStore(true)
+export const $isUserProjectsFormOpened = createStore(false)
 
 export const userProjectsFormApi = createApi($isUserProjectsFormOpened, {
   userProjectsFormOpened: () => true,

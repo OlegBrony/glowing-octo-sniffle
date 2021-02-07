@@ -18,13 +18,19 @@ export const FormFooter = () => {
   const handleBackToForm = () => {
     viewModeSwitchedToForm()
   }
+  const handleToggleView = () => {
+    if (viewMode === 'form') handlePreviewJson()
+    if (viewMode === 'json') handleBackToForm()
+  }
   const handleSaveJson = () => {
     triedToSave()
   }
   return (
     <FooterWrapper>
-      {viewMode === 'form' && <TextButton onClick={handlePreviewJson}>View form JSON</TextButton>}
-      {viewMode === 'json' && <TextButton onClick={handleBackToForm}>Back to form</TextButton>}
+      <TextButton onClick={handleToggleView}>
+        {viewMode === 'form' && 'View form JSON'}
+        {viewMode === 'json' && 'Back to form'}
+      </TextButton>
       <ControlsWrapper>
         <Button onClick={() => userProjectsFormApi.userProjectsFormClosed()}>Cancel</Button>
         <Button onClick={handleSaveJson}>Save</Button>
