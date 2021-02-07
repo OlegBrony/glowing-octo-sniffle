@@ -23,6 +23,6 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    /* ... */
+    baseUrl: '/glowing-octo-sniffle'
   },
 };
