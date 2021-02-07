@@ -10,7 +10,6 @@ import { $projectDetails, newProjectDetailsTriedToAdd } from '../model';
 
 export const ProjectsDetailsList = () => {
   const projectDetails = useStore($projectDetails)
-  console.log(projectDetails);
   return (
     <FormMainTitleAndContent
       title={(
