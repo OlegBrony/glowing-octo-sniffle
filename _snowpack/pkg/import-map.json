@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "effector": "./effector.js",
+    "effector-react": "./effector-react.js",
+    "effector/compat": "./effector/compat.js",
+    "react": "./react.js",
+    "react-dom": "./react-dom.js",
+    "styled-components": "./styled-components.js"
+  }
+}
